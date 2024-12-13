@@ -7,8 +7,10 @@ body{
 }
 
 .heading {
+    display: inline-block;
     margin: 0;
+    padding: 30px;
     font-size: 3rem;
     color: #333;
-    display: inline-block;
+    outline: 5px dotted #ee5c87;
 }

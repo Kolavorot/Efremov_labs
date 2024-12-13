@@ -1,0 +1,14 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    background: linear-gradient(90deg, #ee5c87, #f1a4b5, #d587b3);
+}
+
+.heading {
+    margin: 0;
+    font-size: 3rem;
+    color: #333;
+    display: inline-block;
+}

@@ -1,3 +1,14 @@
+@font-face {
+    font-family: 'Ephesis';
+    src:
+        url('fonts/Ephesis-Regular.woff2') format('woff2'),
+        url('fonts/Ephesis-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
 body{
     display: flex;
     justify-content: center;
@@ -13,4 +24,6 @@ body{
     font-size: 3rem;
     color: #333;
     outline: 5px dotted #ee5c87;
+    font-family: "Ephesis";
+    letter-spacing: 10px;
 }
